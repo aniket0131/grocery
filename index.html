@@ -22,22 +22,68 @@
     </nav>
 
     <div class="icone">
-        <div class="fas" id="menu-btn"><img src="./img/menu.png" alt=""></div>
-        <div class="fas" id="search-btn"><img src="./img/search.png" alt=""></div>
-        <div class="fas" id="sopping-btn"><img src="./img/shopping-cart.png" alt=""></div>
+        <div class="fas" onclick="" id="menu-btn"><img src="./img/menu.png" alt=""></div>
+        <div class="fas" onclick="myfunction()" id="search-btn"><img src="./img/search.png" alt=""></div>
+        <div class="fas" onclick="functio()" id="sopping-btn"><img src="./img/shopping-cart.png" alt=""></div>
         <div class="fas" id="user-btn"><img src="./img/user (1).png" alt=""></div>
         
     </div>
-
     
-        <div id="searchhh">
         <input type="search" name="" id="search-box" placeholder="search here..">
-         </div>   
+
+        <div class="shopping-cart">
+            <div class="box">
+                <div class="delet">
+                    <img src="./img/bin.png" alt="">
+                </div> 
+                <img class="frut" src="./img/whatermelon.jpg" alt="">
+                <div class="contact">
+                    <h3>whatermelon</h3>
+                    <span class="price">$1.99</span>
+                    <span class="quntity">qty : 1 </span>
+
+                </div>
+            </div>
+       
+
+      
+            <div class="box">
+                <div class="delet">
+                    <img src="./img/bin.png" alt="">
+                </div> 
+                <img class="frut" src="./img/chees.jpeg" alt="">
+                <div class="contact">
+                    <h3>Thums up</h3>
+                    <span class="price">$1.00</span>
+                    <span class="quntity">qty : 1 </span>
+
+                </div>
+            </div>
+        
+
+        
+            <div class="box">
+                <div class="delet">
+                    <img src="./img/bin.png" alt="">
+                </div> 
+                <img class="frut" src="./img/thumsup.jpeg" alt="">
+                <div class="contact">
+                    <h3>chees</h3>
+                    <span class="price">$1.20</span>
+                    <span class="quntity">qty : 1 </span>
+
+                </div>
+            </div>
+
+            <div class="total">total: $3.19/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
 
 
     </header>
 
 
     <script src="app.js"></script>
+    <script src="cart.js"></script>
 </body>
 </html>
